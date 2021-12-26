@@ -1,0 +1,58 @@
+html {
+  background-color: #1c1c1c;
+}
+
+body {
+  color: white;
+  font-family: "Teko", sans-serif;
+  /* overflow: hidden; */
+}
+
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.game {
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid black;
+  background: #e0ff9c;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: white;
+}
+
+.btn:focus {
+  background: black;
+  color: #e0ff9c;
+}
+
+.over {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.score {
+  font-size: 40px;
+}
+
+.instructions {
+  font-size: 50px;
+  padding: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
